@@ -157,6 +157,23 @@
           ]
         },
         {
+          "id": "fabric-poi",
+          "name": "Fabric Poi",
+          "price": 700,
+          "priceLabel": "₹700 per pair",
+          "priceEach": true,
+          "quantity": 2,
+          "quantityLabel": "2 pairs, black or beige",
+          "condition": "Unused",
+          "description": "Training fabric poi, unused, available in black and beige.",
+          "images": [
+            "images/full/flow-toys/fabric-poi/IMG_7170.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/fabric-poi/IMG_7170.jpg"
+          ]
+        },
+        {
           "id": "decathlon-hula-hoops",
           "name": "Decathlon Hula Hoops",
           "price": 250,
@@ -220,13 +237,48 @@
           "condition": null
         },
         {
-          "id": "dumbbells",
-          "name": "Dumbbells",
+          "id": "step-up-table",
+          "name": "Step-up Table",
           "price": 500,
           "priceLabel": "₹500",
           "quantity": 1,
+          "description": "Step-up table for calf and aerobic exercise.",
+          "images": [
+            "images/full/gym-items/step-up-table/IMG_7150.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/gym-items/step-up-table/IMG_7150.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
+          "id": "resistance-bands",
+          "name": "Resistance Bands",
+          "price": 400,
+          "priceLabel": "₹400 (set of 2)",
+          "quantity": 2,
+          "quantityLabel": "Set of 2",
+          "description": "Red and dark blue resistance bands with foam handles.",
+          "images": [
+            "images/full/gym-items/resistance-bands/IMG_7148.jpg",
+            "images/full/gym-items/resistance-bands/IMG_7149.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/gym-items/resistance-bands/IMG_7148.jpg",
+            "images/thumbs/gym-items/resistance-bands/IMG_7149.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
+          "id": "dumbbells",
+          "name": "Dumbbells",
+          "price": 400,
+          "priceLabel": "₹400",
+          "quantity": 1,
           "quantityLabel": "One set",
-          "description": "Set of dumbbells: 3 × 1kg and 3 × 2kg.",
+          "description": "4×2kg and 4×3kg (no 5kg).",
           "images": [
             "images/full/gym-items/dumbbells/IMG_7147.jpg"
           ],
@@ -243,6 +295,46 @@
       "name": "Household Items",
       "cover": "images/thumbs/household-items/cover/cover.jpg",
       "items": [
+        {
+          "id": "wzatco-yuva-go-pro-projector",
+          "name": "WZATCO Yuva Go Pro Projector",
+          "price": 6000,
+          "priceLabel": "₹6,000",
+          "quantity": 1,
+          "description": "Compact projector with stand and 3.5mm audio cable.",
+          "images": [
+            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7151.jpg",
+            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7152.jpg",
+            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7153.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7151.jpg",
+            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7152.jpg",
+            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7153.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
+          "id": "libra-cold-press-juicer",
+          "name": "Libra Cold Press Juicer",
+          "price": 4000,
+          "priceLabel": "₹4,000",
+          "quantity": 1,
+          "condition": "Good working condition; slight crack in one plastic container",
+          "description": "Slight crack in one of the plastic containers, good working condition.",
+          "images": [
+            "images/full/household-items/libra-cold-press-juicer/IMG_7138.jpg",
+            "images/full/household-items/libra-cold-press-juicer/IMG_7139.jpg",
+            "images/full/household-items/libra-cold-press-juicer/IMG_7140.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/libra-cold-press-juicer/IMG_7138.jpg",
+            "images/thumbs/household-items/libra-cold-press-juicer/IMG_7139.jpg",
+            "images/thumbs/household-items/libra-cold-press-juicer/IMG_7140.jpg"
+          ],
+          "priceEach": false
+        },
         {
           "id": "vintage-bedside-table-1",
           "name": "Vintage Bedside Table (three-legged)",
@@ -279,6 +371,24 @@
             "images/thumbs/household-items/vintage-bedside-table-2/Table_2_-_1.jpg",
             "images/thumbs/household-items/vintage-bedside-table-2/Table_-_2_-_2.jpg",
             "images/thumbs/household-items/vintage-bedside-table-2/Table_-_2_-_3.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
+          "id": "ibell-650w-impact-drill",
+          "name": "iBELL 650W Impact Drill",
+          "price": 1000,
+          "priceLabel": "₹1,000",
+          "quantity": 1,
+          "description": "In the original box with 4 bits.",
+          "images": [
+            "images/full/household-items/ibell-650w-impact-drill/IMG_7156.jpg",
+            "images/full/household-items/ibell-650w-impact-drill/IMG_7157.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/ibell-650w-impact-drill/IMG_7156.jpg",
+            "images/thumbs/household-items/ibell-650w-impact-drill/IMG_7157.jpg"
           ],
           "priceEach": false,
           "condition": null
