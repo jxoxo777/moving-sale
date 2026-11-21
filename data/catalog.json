@@ -2,7 +2,7 @@
   "title": "Javed's Moving Sale",
   "whatsappNumber": "918943960382",
   "whatsappNote": "Message me on WhatsApp if something catches your eye — I'm moving house, and these are all for sale.",
-  "howToAddACategory": "Add another object to categories with a unique id (suggested: furniture, clothes, gym), a name, a cover image path, and an items array using the same item shape as below. The site reads only this file.",
+  "howToAddACategory": "Add another object to categories with a unique id (for example furniture, clothes or kitchen), a name, a cover image path, and an items array using the same item shape as below. The site reads only this file.",
   "categories": [
     {
       "id": "flow-toys",
@@ -88,7 +88,7 @@
           "priceEach": false,
           "quantity": 1,
           "condition": "Unused",
-          "description": "Fire fans with ceramic wick.",
+          "description": "Fire fans with ceramic wick and a carry bag.",
           "images": [
             "images/full/flow-toys/fire-fans/IMG_7116.jpg",
             "images/full/flow-toys/fire-fans/IMG_7117.jpg",
@@ -191,6 +191,138 @@
             "images/thumbs/flow-toys/training-nunchaku/IMG_7121.jpg",
             "images/thumbs/flow-toys/training-nunchaku/IMG_7122.jpg"
           ]
+        }
+      ]
+    },
+    {
+      "id": "gym-items",
+      "name": "Gym Items",
+      "cover": "images/thumbs/gym-items/cover/cover.jpg",
+      "items": [
+        {
+          "id": "gym-bench",
+          "name": "Gym Bench",
+          "price": 1200,
+          "priceLabel": "₹1,200",
+          "quantity": 1,
+          "description": "Corength gym bench with adjustable incline, 3 levels.",
+          "images": [
+            "images/full/gym-items/gym-bench/IMG_7144.jpg",
+            "images/full/gym-items/gym-bench/IMG_7145.jpg",
+            "images/full/gym-items/gym-bench/IMG_7146.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/gym-items/gym-bench/IMG_7144.jpg",
+            "images/thumbs/gym-items/gym-bench/IMG_7145.jpg",
+            "images/thumbs/gym-items/gym-bench/IMG_7146.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
+          "id": "dumbbells",
+          "name": "Dumbbells",
+          "price": 500,
+          "priceLabel": "₹500",
+          "quantity": 1,
+          "quantityLabel": "One set",
+          "description": "Set of dumbbells: 3 × 1kg and 3 × 2kg.",
+          "images": [
+            "images/full/gym-items/dumbbells/IMG_7147.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/gym-items/dumbbells/IMG_7147.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "household-items",
+      "name": "Household Items",
+      "cover": "images/thumbs/household-items/cover/cover.jpg",
+      "items": [
+        {
+          "id": "vintage-bedside-table-1",
+          "name": "Vintage Bedside Table (three-legged)",
+          "price": 1200,
+          "priceLabel": "₹1,200",
+          "quantity": 1,
+          "description": "Handmade wood. Three-legged table with a carved, figured top.",
+          "images": [
+            "images/full/household-items/vintage-bedside-table-1/Table_1_-_1.jpg",
+            "images/full/household-items/vintage-bedside-table-1/Table_1_-_2.jpg",
+            "images/full/household-items/vintage-bedside-table-1/Table_1_-_3.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/vintage-bedside-table-1/Table_1_-_1.jpg",
+            "images/thumbs/household-items/vintage-bedside-table-1/Table_1_-_2.jpg",
+            "images/thumbs/household-items/vintage-bedside-table-1/Table_1_-_3.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
+          "id": "vintage-bedside-table-2",
+          "name": "Vintage Bedside Table (tree pedestal)",
+          "price": 1200,
+          "priceLabel": "₹1,200",
+          "quantity": 1,
+          "description": "Handmade wood. Live-edge top on a tree-trunk pedestal.",
+          "images": [
+            "images/full/household-items/vintage-bedside-table-2/Table_2_-_1.jpg",
+            "images/full/household-items/vintage-bedside-table-2/Table_-_2_-_2.jpg",
+            "images/full/household-items/vintage-bedside-table-2/Table_-_2_-_3.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/vintage-bedside-table-2/Table_2_-_1.jpg",
+            "images/thumbs/household-items/vintage-bedside-table-2/Table_-_2_-_2.jpg",
+            "images/thumbs/household-items/vintage-bedside-table-2/Table_-_2_-_3.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "music-instruments",
+      "name": "Music instruments",
+      "cover": "images/thumbs/music-instruments/cover/cover.jpg",
+      "items": [
+        {
+          "id": "didgeridoo",
+          "name": "Didgeridoo",
+          "price": 1000,
+          "priceLabel": "₹1,000",
+          "quantity": 1,
+          "description": "PVC didgeridoo.",
+          "images": [
+            "images/full/music-instruments/didgeridoo/Digeridoo-1.jpg",
+            "images/full/music-instruments/didgeridoo/Digeridoo-2.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/music-instruments/didgeridoo/Digeridoo-1.jpg",
+            "images/thumbs/music-instruments/didgeridoo/Digeridoo-2.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
+          "id": "bongo-drums",
+          "name": "Bongo Drums",
+          "price": 700,
+          "priceLabel": "₹700",
+          "quantity": 1,
+          "description": "Wood and animal-skin bongo drums.",
+          "images": [
+            "images/full/music-instruments/bongo-drums/Bongo_drums.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/music-instruments/bongo-drums/Bongo_drums.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
         }
       ]
     }
