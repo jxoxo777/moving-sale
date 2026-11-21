@@ -1,0 +1,198 @@
+{
+  "title": "Javed's Moving Sale",
+  "whatsappNumber": "918943960382",
+  "whatsappNote": "Message me on WhatsApp if something catches your eye — I'm moving house, and these are all for sale.",
+  "howToAddACategory": "Add another object to categories with a unique id (suggested: furniture, clothes, gym), a name, a cover image path, and an items array using the same item shape as below. The site reads only this file.",
+  "categories": [
+    {
+      "id": "flow-toys",
+      "name": "Flow toys",
+      "cover": "images/thumbs/flow-toys/cover/cover.jpg",
+      "items": [
+        {
+          "id": "main-flow-on-fire-contact-poi",
+          "name": "Main Flow on Fire Contact Poi",
+          "price": 3500,
+          "priceLabel": "₹3,500",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": null,
+          "description": "Main Flow on Fire contact poi, 95.5mm heads, sphere knobs, VPC rope 10mm, length 44.5 cm (rope only).",
+          "images": [
+            "images/full/flow-toys/main-flow-on-fire-contact-poi/IMG_7120.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/main-flow-on-fire-contact-poi/IMG_7120.jpg"
+          ]
+        },
+        {
+          "id": "charcoal-poi",
+          "name": "Charcoal Poi",
+          "price": 3000,
+          "priceLabel": "₹3,000",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": "Unused",
+          "description": "Charcoal poi.",
+          "images": [
+            "images/full/flow-toys/charcoal-poi/IMG_7131.jpg",
+            "images/full/flow-toys/charcoal-poi/IMG_7132.jpg",
+            "images/full/flow-toys/charcoal-poi/IMG_7133.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/charcoal-poi/IMG_7131.jpg",
+            "images/thumbs/flow-toys/charcoal-poi/IMG_7132.jpg",
+            "images/thumbs/flow-toys/charcoal-poi/IMG_7133.jpg"
+          ]
+        },
+        {
+          "id": "lyco-fire-sword",
+          "name": "Lyco Fire Sword",
+          "price": 3000,
+          "priceLabel": "₹3,000 each",
+          "priceEach": true,
+          "quantity": 2,
+          "quantityLabel": "2 available",
+          "condition": "Used, burned 5 to 6 times",
+          "description": "Big Lyco swords, burned 5 to 6 times.",
+          "images": [
+            "images/full/flow-toys/lyco-fire-sword/IMG_7127.jpg",
+            "images/full/flow-toys/lyco-fire-sword/IMG_7129.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/lyco-fire-sword/IMG_7127.jpg",
+            "images/thumbs/flow-toys/lyco-fire-sword/IMG_7129.jpg"
+          ]
+        },
+        {
+          "id": "chain-fire-levi-stick",
+          "name": "Chain Fire Levi Stick",
+          "price": 2500,
+          "priceLabel": "₹2,500",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": null,
+          "description": "Fire levi stick with chain string and Kevlar wick.",
+          "images": [
+            "images/full/flow-toys/chain-fire-levi-stick/IMG_7130.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/chain-fire-levi-stick/IMG_7130.jpg"
+          ]
+        },
+        {
+          "id": "fire-fans",
+          "name": "Fire Fans",
+          "price": 2000,
+          "priceLabel": "₹2,000",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": "Unused",
+          "description": "Fire fans with ceramic wick.",
+          "images": [
+            "images/full/flow-toys/fire-fans/IMG_7116.jpg",
+            "images/full/flow-toys/fire-fans/IMG_7117.jpg",
+            "images/full/flow-toys/fire-fans/IMG_7118.jpg",
+            "images/full/flow-toys/fire-fans/IMG_7119.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/fire-fans/IMG_7116.jpg",
+            "images/thumbs/flow-toys/fire-fans/IMG_7117.jpg",
+            "images/thumbs/flow-toys/fire-fans/IMG_7118.jpg",
+            "images/thumbs/flow-toys/fire-fans/IMG_7119.jpg"
+          ]
+        },
+        {
+          "id": "fire-rope-dart",
+          "name": "Fire Rope Dart",
+          "price": 1500,
+          "priceLabel": "₹1,500",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": "Unused",
+          "description": "Fire rope dart with ceramic wick.",
+          "images": [
+            "images/full/flow-toys/fire-rope-dart/IMG_7134.jpg",
+            "images/full/flow-toys/fire-rope-dart/IMG_7135.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/fire-rope-dart/IMG_7134.jpg",
+            "images/thumbs/flow-toys/fire-rope-dart/IMG_7135.jpg"
+          ]
+        },
+        {
+          "id": "flow-joy-dapo-star",
+          "name": "Flow Joy Dapo Star",
+          "price": 1200,
+          "priceLabel": "₹1,200",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": null,
+          "description": "Flow Joy dapo star, with a gold celestial side and a flame-pattern side.",
+          "images": [
+            "images/full/flow-toys/flow-joy-dapo-star/IMG_7123.jpg",
+            "images/full/flow-toys/flow-joy-dapo-star/IMG_7124.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/flow-joy-dapo-star/IMG_7123.jpg",
+            "images/thumbs/flow-toys/flow-joy-dapo-star/IMG_7124.jpg"
+          ]
+        },
+        {
+          "id": "indieflow-dapo-star",
+          "name": "Indieflow Dapo Star",
+          "price": 700,
+          "priceLabel": "₹700",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": "Used",
+          "description": "Indieflow dapo star, with a colourful print on one side and a red and gold back.",
+          "images": [
+            "images/full/flow-toys/indieflow-dapo-star/IMG_7125.jpg",
+            "images/full/flow-toys/indieflow-dapo-star/IMG_7126.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/indieflow-dapo-star/IMG_7125.jpg",
+            "images/thumbs/flow-toys/indieflow-dapo-star/IMG_7126.jpg"
+          ]
+        },
+        {
+          "id": "decathlon-hula-hoops",
+          "name": "Decathlon Hula Hoops",
+          "price": 250,
+          "priceLabel": "₹250 each",
+          "priceEach": true,
+          "quantity": 2,
+          "quantityLabel": "2 available",
+          "condition": null,
+          "description": "Decathlon hula hoops.",
+          "images": [
+            "images/full/flow-toys/decathlon-hula-hoops/IMG_7115.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/decathlon-hula-hoops/IMG_7115.jpg"
+          ]
+        },
+        {
+          "id": "training-nunchaku",
+          "name": "Training Nunchaku",
+          "price": 100,
+          "priceLabel": "₹100 each",
+          "priceEach": true,
+          "quantity": 2,
+          "quantityLabel": "2 available",
+          "condition": null,
+          "description": "One soft-padded and one wooden.",
+          "images": [
+            "images/full/flow-toys/training-nunchaku/IMG_7121.jpg",
+            "images/full/flow-toys/training-nunchaku/IMG_7122.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/training-nunchaku/IMG_7121.jpg",
+            "images/thumbs/flow-toys/training-nunchaku/IMG_7122.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}
