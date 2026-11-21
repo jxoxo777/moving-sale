@@ -1,5 +1,5 @@
 {
-  "title": "Javed's Moving Sale",
+  "title": "Moving Out Sale",
   "whatsappNumber": "918943960382",
   "whatsappNote": "Message me on WhatsApp if something catches your eye — I'm moving house, and these are all for sale.",
   "howToAddACategory": "Add another object to categories with a unique id (for example furniture, clothes or kitchen), a name, a cover image path, and an items array using the same item shape as below. The site reads only this file.",
