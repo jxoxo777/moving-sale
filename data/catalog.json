@@ -392,6 +392,24 @@
           ],
           "priceEach": false,
           "condition": null
+        },
+        {
+          "id": "gaiatop-usb-table-fan",
+          "name": "GAIATOP USB Table Fan",
+          "price": 400,
+          "priceLabel": "₹400",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": null,
+          "description": "Small black USB desk fan with a tilting cage.",
+          "images": [
+            "images/full/household-items/gaiatop-usb-table-fan/IMG_7154.jpg",
+            "images/full/household-items/gaiatop-usb-table-fan/IMG_7155.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/gaiatop-usb-table-fan/IMG_7154.jpg",
+            "images/thumbs/household-items/gaiatop-usb-table-fan/IMG_7155.jpg"
+          ]
         }
       ]
     },
