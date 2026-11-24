@@ -174,6 +174,22 @@
           ]
         },
         {
+          "id": "contact-ball",
+          "name": "Orange Contact Ball",
+          "price": 450,
+          "priceLabel": "₹450",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": null,
+          "description": "Orange contact ball, palm-sized.",
+          "images": [
+            "images/full/flow-toys/contact-ball/IMG_7214.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/flow-toys/contact-ball/IMG_7214.jpg"
+          ]
+        },
+        {
           "id": "decathlon-hula-hoops",
           "name": "Decathlon Hula Hoops",
           "price": 250,
