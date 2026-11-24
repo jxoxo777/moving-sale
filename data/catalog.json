@@ -659,6 +659,22 @@
       "cover": "images/thumbs/music-instruments/cover/cover.jpg",
       "items": [
         {
+          "id": "bongo-drums",
+          "name": "Bongo Drums",
+          "price": 700,
+          "priceLabel": "₹700",
+          "quantity": 1,
+          "description": "Wood and animal-skin bongo drums.",
+          "images": [
+            "images/full/music-instruments/bongo-drums/Bongo_drums.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/music-instruments/bongo-drums/Bongo_drums.jpg"
+          ],
+          "priceEach": false,
+          "condition": null
+        },
+        {
           "id": "didgeridoo",
           "name": "Didgeridoo",
           "price": 1000,
@@ -674,23 +690,8 @@
             "images/thumbs/music-instruments/didgeridoo/Digeridoo-2.jpg"
           ],
           "priceEach": false,
-          "condition": null
-        },
-        {
-          "id": "bongo-drums",
-          "name": "Bongo Drums",
-          "price": 700,
-          "priceLabel": "₹700",
-          "quantity": 1,
-          "description": "Wood and animal-skin bongo drums.",
-          "images": [
-            "images/full/music-instruments/bongo-drums/Bongo_drums.jpg"
-          ],
-          "thumbs": [
-            "images/thumbs/music-instruments/bongo-drums/Bongo_drums.jpg"
-          ],
-          "priceEach": false,
-          "condition": null
+          "condition": null,
+          "sold": true
         }
       ]
     }
