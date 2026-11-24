@@ -181,7 +181,7 @@
           "priceEach": false,
           "quantity": 1,
           "condition": null,
-          "description": "Orange contact ball, palm-sized.",
+          "description": "Orange contact ball, 100mm.",
           "images": [
             "images/full/flow-toys/contact-ball/IMG_7214.jpg"
           ],
@@ -208,20 +208,18 @@
         },
         {
           "id": "training-nunchaku",
-          "name": "Training Nunchaku",
+          "name": "Wooden Training Nunchaku",
           "price": 100,
-          "priceLabel": "₹100 each",
-          "priceEach": true,
-          "quantity": 2,
-          "quantityLabel": "2 available",
+          "priceLabel": "₹100",
+          "priceEach": false,
+          "quantity": 1,
+          "quantityLabel": null,
           "condition": null,
-          "description": "One soft-padded and one wooden.",
+          "description": "Wooden nunchaku with a metal chain.",
           "images": [
-            "images/full/flow-toys/training-nunchaku/IMG_7121.jpg",
             "images/full/flow-toys/training-nunchaku/IMG_7122.jpg"
           ],
           "thumbs": [
-            "images/thumbs/flow-toys/training-nunchaku/IMG_7121.jpg",
             "images/thumbs/flow-toys/training-nunchaku/IMG_7122.jpg"
           ]
         }
