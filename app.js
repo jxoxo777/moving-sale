@@ -50,6 +50,18 @@ function itemCountLabel(n) {
   return n === 1 ? "1 item" : `${n} items`;
 }
 
+function isSold(item) {
+  return Boolean(item && item.sold);
+}
+
+function availableCount(category) {
+  return (category.items || []).filter((item) => !isSold(item)).length;
+}
+
+function sortedItems(category) {
+  return [...(category.items || [])].sort((a, b) => Number(isSold(a)) - Number(isSold(b)));
+}
+
 function setChrome(page, backHref, label) {
   document.body.dataset.page = page;
   if (page === "home") {
@@ -66,7 +78,7 @@ function renderHome() {
   setChrome("home");
   const tiles = catalog.categories
     .map((cat) => {
-      const n = cat.items.length;
+      const n = availableCount(cat);
       return `<a class="category-tile" href="#/${encodeURIComponent(cat.id)}">
         <img src="${escapeHtml(cat.cover)}" alt="" loading="lazy" width="800" height="600">
         <div class="category-meta">
@@ -87,11 +99,15 @@ function renderHome() {
 
 function renderCategory(category) {
   setChrome("category", "#/", "All categories");
-  const cards = category.items
+  const cards = sortedItems(category)
     .map((item) => {
       const thumb = item.thumbs?.[0] || item.images[0];
-      return `<a class="item-card" href="#/${encodeURIComponent(category.id)}/${encodeURIComponent(item.id)}">
-        <img src="${escapeHtml(thumb)}" alt="${escapeHtml(item.name)}" loading="lazy" width="400" height="400">
+      const sold = isSold(item);
+      return `<a class="item-card${sold ? " sold" : ""}" href="#/${encodeURIComponent(category.id)}/${encodeURIComponent(item.id)}">
+        <div class="thumb-wrap">
+          <img src="${escapeHtml(thumb)}" alt="${escapeHtml(item.name)}" loading="lazy" width="400" height="400">
+          ${sold ? '<span class="sold-badge">Sold</span>' : ""}
+        </div>
         <div class="cap">
           <h2>${escapeHtml(item.name)}</h2>
           <p class="price">${escapeHtml(item.priceLabel)}</p>
@@ -103,7 +119,7 @@ function renderCategory(category) {
   app.innerHTML = `
     <div class="section-head">
       <h1>${escapeHtml(category.name)}</h1>
-      <span class="count">${itemCountLabel(category.items.length)}</span>
+      <span class="count">${itemCountLabel(availableCount(category))}</span>
     </div>
     <div class="item-grid">${cards}</div>`;
 }
@@ -137,17 +153,27 @@ function renderItem(category, item) {
           .join("")}</div>`
       : `<div class="dots" hidden></div>`;
 
+  const sold = isSold(item);
+  const soldBadge = sold ? '<span class="sold-badge">Sold</span>' : "";
+  const waBar = sold
+    ? `<span class="sold-label" aria-disabled="true">Sold</span>`
+    : `<a class="wa-btn" href="${waLink(itemMessage(item))}" target="_blank" rel="noopener noreferrer">
+        ${WA_ICON} Message on WhatsApp
+      </a>`;
+
   app.innerHTML = `
-    <div class="item-page">
+    <div class="item-page${sold ? " sold" : ""}">
       <div class="gallery" id="gallery">
         <div class="gallery-track" id="gallery-track">${slides}</div>
         ${dots}
+        ${soldBadge}
       </div>
       <div class="item-copy">
-        <h1>${escapeHtml(item.name)}</h1>
+        <h1>${escapeHtml(item.name)} ${soldBadge}</h1>
         <p class="lead-price">${escapeHtml(item.priceLabel)}</p>
         <ul class="facts">
           ${factRow("Price", item.priceLabel)}
+          ${factRow("Size", item.size)}
           ${factRow("Condition", item.condition)}
           ${factRow("Quantity", quantity)}
         </ul>
@@ -155,9 +181,7 @@ function renderItem(category, item) {
       </div>
     </div>
     <div class="wa-bar">
-      <a class="wa-btn" href="${waLink(itemMessage(item))}" target="_blank" rel="noopener noreferrer">
-        ${WA_ICON} Message on WhatsApp
-      </a>
+      ${waBar}
     </div>`;
 
   bindGallery(item);

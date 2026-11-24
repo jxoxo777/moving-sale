@@ -296,26 +296,6 @@
       "cover": "images/thumbs/household-items/cover/cover.jpg",
       "items": [
         {
-          "id": "wzatco-yuva-go-pro-projector",
-          "name": "WZATCO Yuva Go Pro Projector",
-          "price": 6000,
-          "priceLabel": "₹6,000",
-          "quantity": 1,
-          "description": "Compact projector with stand and 3.5mm audio cable.",
-          "images": [
-            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7151.jpg",
-            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7152.jpg",
-            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7153.jpg"
-          ],
-          "thumbs": [
-            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7151.jpg",
-            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7152.jpg",
-            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7153.jpg"
-          ],
-          "priceEach": false,
-          "condition": null
-        },
-        {
           "id": "libra-cold-press-juicer",
           "name": "Libra Cold Press Juicer",
           "price": 4000,
@@ -409,6 +389,214 @@
           "thumbs": [
             "images/thumbs/household-items/gaiatop-usb-table-fan/IMG_7154.jpg",
             "images/thumbs/household-items/gaiatop-usb-table-fan/IMG_7155.jpg"
+          ]
+        },
+        {
+          "id": "wzatco-yuva-go-pro-projector",
+          "name": "WZATCO Yuva Go Pro Projector",
+          "price": 6000,
+          "priceLabel": "₹6,000",
+          "quantity": 1,
+          "description": "Compact projector with stand and 3.5mm audio cable.",
+          "images": [
+            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7151.jpg",
+            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7152.jpg",
+            "images/full/household-items/wzatco-yuva-go-pro-projector/IMG_7153.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7151.jpg",
+            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7152.jpg",
+            "images/thumbs/household-items/wzatco-yuva-go-pro-projector/IMG_7153.jpg"
+          ],
+          "priceEach": false,
+          "condition": null,
+          "sold": true
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "name": "Clothes",
+      "cover": "images/thumbs/clothes/cover/cover.jpg",
+      "items": [
+        {
+          "id": "attention-shirt",
+          "name": "Attention Shirt",
+          "price": 450,
+          "priceLabel": "₹450",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "XL",
+          "condition": null,
+          "description": "Rust camp-collar shirt with a Play for Keeps back print.",
+          "images": [
+            "images/full/clothes/attention-shirt/IMG_7196.jpg",
+            "images/full/clothes/attention-shirt/IMG_7197.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/attention-shirt/IMG_7196.jpg",
+            "images/thumbs/clothes/attention-shirt/IMG_7197.jpg"
+          ]
+        },
+        {
+          "id": "cargo-pants",
+          "name": "Cargo Pants",
+          "price": 500,
+          "priceLabel": "₹500",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "M",
+          "condition": null,
+          "description": "Khaki/olive cargo pants with side pockets and drawstring hems.",
+          "images": [
+            "images/full/clothes/cargo-pants/IMG_7204.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/cargo-pants/IMG_7204.jpg"
+          ]
+        },
+        {
+          "id": "denim-shorts",
+          "name": "Denim Shorts",
+          "price": 350,
+          "priceLabel": "₹350",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "XL",
+          "condition": null,
+          "description": "Faded grey denim shorts with a raw frayed hem and large thigh pockets.",
+          "images": [
+            "images/full/clothes/denim-shorts/IMG_7206.jpg",
+            "images/full/clothes/denim-shorts/IMG_7201.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/denim-shorts/IMG_7206.jpg",
+            "images/thumbs/clothes/denim-shorts/IMG_7201.jpg"
+          ]
+        },
+        {
+          "id": "heavyweight-full-sleeve-cotton-tee",
+          "name": "Heavyweight Full-Sleeve Cotton Tee",
+          "price": 500,
+          "priceLabel": "₹500",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "M",
+          "condition": null,
+          "description": "Dark brown heavyweight full-sleeve cotton tee with a SURF / California Summer Time 2023 graphic.",
+          "images": [
+            "images/full/clothes/heavyweight-full-sleeve-cotton-tee/IMG_7207.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/heavyweight-full-sleeve-cotton-tee/IMG_7207.jpg"
+          ]
+        },
+        {
+          "id": "flowy-paisley-shirt",
+          "name": "Flowy Paisley Shirt",
+          "price": 500,
+          "priceLabel": "₹500",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "M",
+          "condition": null,
+          "description": "Breezy-fit long-sleeve shirt with a brown, teal and mustard paisley print.",
+          "images": [
+            "images/full/clothes/flowy-paisley-shirt/IMG_7210.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/flowy-paisley-shirt/IMG_7210.jpg"
+          ]
+        },
+        {
+          "id": "levis-denim-pants",
+          "name": "Levi's Denim Pants",
+          "price": 500,
+          "priceLabel": "₹500",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "34",
+          "condition": null,
+          "description": "Black ripped Levi's jeans with paint splatter.",
+          "images": [
+            "images/full/clothes/levis-denim-pants/IMG_7200.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/levis-denim-pants/IMG_7200.jpg"
+          ]
+        },
+        {
+          "id": "pink-satin-shirt",
+          "name": "Pink Satin Shirt",
+          "price": 600,
+          "priceLabel": "₹600",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "M",
+          "condition": "Barely worn",
+          "description": "Pink satin shirt with a watercolor floral print.",
+          "images": [
+            "images/full/clothes/pink-satin-shirt/IMG_7194.jpg",
+            "images/full/clothes/pink-satin-shirt/IMG_7195.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/pink-satin-shirt/IMG_7194.jpg",
+            "images/thumbs/clothes/pink-satin-shirt/IMG_7195.jpg"
+          ]
+        },
+        {
+          "id": "roadster-x-motogp-jacket",
+          "name": "Roadster x MotoGP Jacket",
+          "price": 400,
+          "priceLabel": "₹400",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "M",
+          "condition": null,
+          "description": "Dark charcoal Roadster x MotoGP zip-up jacket.",
+          "images": [
+            "images/full/clothes/roadster-x-motogp-jacket/IMG_7202.jpg",
+            "images/full/clothes/roadster-x-motogp-jacket/IMG_7203.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/roadster-x-motogp-jacket/IMG_7202.jpg",
+            "images/thumbs/clothes/roadster-x-motogp-jacket/IMG_7203.jpg"
+          ]
+        },
+        {
+          "id": "sleeveless-cotton-shirt",
+          "name": "Sleeveless Cotton Shirt",
+          "price": 250,
+          "priceLabel": "₹250",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "M",
+          "condition": null,
+          "description": "Cream sleeveless cotton shirt with a palm and leopard print.",
+          "images": [
+            "images/full/clothes/sleeveless-cotton-shirt/IMG_7208.jpg",
+            "images/full/clothes/sleeveless-cotton-shirt/IMG_7209.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/sleeveless-cotton-shirt/IMG_7208.jpg",
+            "images/thumbs/clothes/sleeveless-cotton-shirt/IMG_7209.jpg"
+          ]
+        },
+        {
+          "id": "teddy-bear-graphic-shirt",
+          "name": "Teddy Bear Graphic Shirt",
+          "price": 500,
+          "priceLabel": "₹500",
+          "priceEach": false,
+          "quantity": 1,
+          "size": "M",
+          "condition": null,
+          "description": "Short-sleeve black shirt with a teddy-bear graphic panel on one side.",
+          "images": [
+            "images/full/clothes/teddy-bear-graphic-shirt/IMG_7205.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/clothes/teddy-bear-graphic-shirt/IMG_7205.jpg"
           ]
         }
       ]

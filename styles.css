@@ -277,11 +277,48 @@ body[data-page="item"] .app {
 @media (hover: hover) {
   .item-card:hover { transform: translateY(-2px); }
 }
+.item-card .thumb-wrap {
+  position: relative;
+  width: 100%;
+}
 .item-card img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   background: #ddd6cc;
+}
+.item-card.sold {
+  color: #4d4843;
+}
+.item-card.sold img,
+.item-page.sold .gallery img {
+  filter: grayscale(0.4) brightness(0.9);
+  opacity: 0.8;
+}
+.sold-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #2b2723;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  line-height: 1.2;
+}
+.thumb-wrap .sold-badge,
+.gallery > .sold-badge {
+  position: absolute;
+  top: 0.55rem;
+  left: 0.55rem;
+  z-index: 3;
+}
+.item-card.sold .price,
+.item-page.sold .lead-price {
+  color: var(--muted);
 }
 .item-card .cap {
   padding: 0.65rem 0.7rem 0.85rem;
@@ -420,6 +457,15 @@ body[data-page="item"] .app {
   margin: 0 0 0.4rem;
   line-height: 1.15;
   overflow-wrap: anywhere;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.6rem;
+}
+.item-copy h1 .sold-badge {
+  font-family: var(--font-sans);
+  letter-spacing: 0.06em;
+  flex: 0 0 auto;
 }
 .item-copy .lead-price {
   font-size: 1.35rem;
@@ -487,6 +533,23 @@ body[data-page="item"] .wa-bar {
 }
 .wa-btn:hover { filter: brightness(1.06); }
 .wa-btn svg { width: 1.25rem; height: 1.25rem; fill: currentColor; flex: 0 0 auto; }
+.sold-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #8a847c;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.85rem 1.1rem;
+  min-height: 48px;
+  border-radius: 999px;
+  cursor: default;
+  user-select: none;
+}
 
 .not-found {
   text-align: center;
