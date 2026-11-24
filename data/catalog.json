@@ -392,6 +392,40 @@
           ]
         },
         {
+          "id": "foldable-table",
+          "name": "AMAZE SHOPPEE Folding Table",
+          "price": 650,
+          "priceLabel": "₹650",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": null,
+          "description": "Portable mango-wood folding table with a dark slatted top. Can be used as a bed, laptop, picnic or breakfast table.",
+          "images": [
+            "images/full/household-items/foldable-table/IMG_7184.jpg",
+            "images/full/household-items/foldable-table/IMG_7185.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/foldable-table/IMG_7184.jpg",
+            "images/thumbs/household-items/foldable-table/IMG_7185.jpg"
+          ]
+        },
+        {
+          "id": "teal-carpet",
+          "name": "Teal Shag Carpet",
+          "price": 2500,
+          "priceLabel": "₹2,500",
+          "priceEach": false,
+          "quantity": 1,
+          "condition": null,
+          "description": "Soft teal shag rug, 4 × 6 ft (120 × 180 cm), with a 5 cm pile.",
+          "images": [
+            "images/full/household-items/teal-carpet/IMG_7183.jpg"
+          ],
+          "thumbs": [
+            "images/thumbs/household-items/teal-carpet/IMG_7183.jpg"
+          ]
+        },
+        {
           "id": "wzatco-yuva-go-pro-projector",
           "name": "WZATCO Yuva Go Pro Projector",
           "price": 6000,
