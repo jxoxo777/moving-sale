@@ -248,7 +248,8 @@
             "images/thumbs/gym-items/gym-bench/IMG_7146.jpg"
           ],
           "priceEach": false,
-          "condition": null
+          "condition": null,
+          "sold": true
         },
         {
           "id": "step-up-table",
@@ -264,7 +265,8 @@
             "images/thumbs/gym-items/step-up-table/IMG_7150.jpg"
           ],
           "priceEach": false,
-          "condition": null
+          "condition": null,
+          "sold": true
         },
         {
           "id": "resistance-bands",
@@ -283,7 +285,8 @@
             "images/thumbs/gym-items/resistance-bands/IMG_7149.jpg"
           ],
           "priceEach": false,
-          "condition": null
+          "condition": null,
+          "sold": true
         },
         {
           "id": "dumbbells",
@@ -347,7 +350,8 @@
             "images/thumbs/household-items/vintage-bedside-table-1/Table_1_-_3.jpg"
           ],
           "priceEach": false,
-          "condition": null
+          "condition": null,
+          "sold": true
         },
         {
           "id": "vintage-bedside-table-2",
@@ -367,7 +371,8 @@
             "images/thumbs/household-items/vintage-bedside-table-2/Table_-_2_-_3.jpg"
           ],
           "priceEach": false,
-          "condition": null
+          "condition": null,
+          "sold": true
         },
         {
           "id": "ibell-650w-impact-drill",
@@ -423,7 +428,8 @@
             "images/thumbs/household-items/foldable-table/IMG_7184.jpg",
             "images/thumbs/household-items/foldable-table/IMG_7185.jpg",
             "images/thumbs/household-items/foldable-table/IMG_7211.jpg"
-          ]
+          ],
+          "sold": true
         },
         {
           "id": "teal-carpet",
